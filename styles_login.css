@@ -1,0 +1,160 @@
+html,body{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Comfortaa', cursive;
+    color: #ffffff;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(farthest-side at left bottom, #7E27D5, #1A65FF);
+    background-repeat: no-repeat;
+    overflow: auto;
+    display: flex;
+    flex-flow: column;
+}
+
+#screen{
+    /* position: absolute; */
+    /* top: 15%; */
+    /* left: 40%; */
+    width : 50%;
+    /* height: 70%; */
+    /* overflow: auto; */
+    margin: 20px;
+    margin-left: 40%;
+    margin-top: 8%;
+}
+
+#welcome{
+    font-size: 40px;
+    margin: 5px 20px;
+}
+
+#text{
+    font-weight: 300;
+    font-size: 15px;
+    margin: 5px 20px;
+}
+
+.form{
+    display: block;
+    border : none;
+    background-color: #f7f7f7;
+    margin: 20px;
+    width: 80%;
+    height: 40px;
+    font-family: 'Comfortaa', cursive;
+    color: #1A65FF;
+    padding: 0px 10px;
+    box-shadow: 0px 0px 7px #5c0faa;
+    border-radius: 5px;
+}
+
+#login{
+    background: none;
+    color: #f7f7f7;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+    /* text-align: center; */
+    box-shadow: none;
+    font-size: 15px;
+    width: fit-content;
+    height: 40px;
+    transition: box-shadow 0.5s;
+    transition-timing-function: ease-out;
+    margin: 20px ;
+}
+
+#for_pass{
+    background: none;
+    color: #f7f7f7;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    box-shadow: none;
+    font-size: 0.5em;
+    width: fit-content;
+    height: 20px;
+    transition: box-shadow 0.5s;
+    transition-timing-function: ease-in-out;
+    margin: 20px 10px;
+}
+
+#buttons{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#login:hover{
+    box-shadow: 0px 0px 7px #50148b;
+}
+
+#for_pass:hover{
+    box-shadow: 0px 0px 7px #50148b;
+}
+
+::-webkit-input-placeholder {
+    color: #1A65FF;
+}
+
+#logo{
+    /* position: absolute;
+    bottom: 5%;
+    left: 5%; */
+    margin: 20px;
+}
+
+@media only screen and (max-width: 768px){
+    .form{
+        display: block;
+        border : none;
+        background-color: #f7f7f7;
+        margin: 10px;
+        width: 100pet;
+        height: 40px;
+        font-family: 'Comfortaa', cursive;
+        color: #1A65FF;
+        padding: 0px 10px;
+        margin: 20px;
+        box-shadow: 0px 0px 7px #5c0faa;
+        border-radius: 5px;
+    }
+
+    #screen{
+        /* position: absolute; */
+        /* top: 15%; */
+        /* left: 40%; */
+        width : 100%;
+        /* height: 70%; */
+        /* overflow: auto; */
+        margin: 10% auto   ;
+        /* margin-left: 40%;
+        margin-top: 8%; */
+    }
+
+    #welcome{
+        font-size: 30px;
+        margin: 5px 20px;
+    }
+    
+    #text{
+        font-weight: 300;
+        font-size: 12px;
+        margin: 5px 20px;
+    }
+
+    #login, #for_pass{
+        margin: 0px 20px;
+    }
+
+    #logo{
+        margin: 50px 10px;
+    }
+}
+
+
+
