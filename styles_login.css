@@ -109,6 +109,10 @@ html,body{
 }
 
 @media only screen and (max-width: 768px){
+    #screen{
+        margin-top: 100px;
+    }
+
     .form{
         display: block;
         border : none;
@@ -142,7 +146,7 @@ html,body{
     }
     
     #text{
-        font-weight: 300;
+        font-weight: 200;
         font-size: 12px;
         margin: 5px 20px;
     }
@@ -152,7 +156,7 @@ html,body{
     }
 
     #logo{
-        margin: 50px 10px;
+        margin-bottom: -50px;
     }
 }
 
