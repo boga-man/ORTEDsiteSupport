@@ -13,6 +13,7 @@ html,body{
     overflow: auto;
     display: flex;
     flex-flow: column;
+    min-height: 100vh;
 }
 
 #screen{
@@ -25,6 +26,7 @@ html,body{
     margin: 20px;
     margin-left: 40%;
     margin-top: 8%;
+    flex-grow: 1;
 }
 
 #welcome{
